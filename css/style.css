@@ -73,7 +73,7 @@ body {
   height: 168px; }
 @media screen and (min-width: 320px) and (max-width: 620px) {
   .appraved {
-    top: 290px;
+    top: 256px;
     right: 25px; } }
 
 .skills {
@@ -162,6 +162,7 @@ body {
   position: absolute;
   top: 95px;
   left: 90px;
+  cursor: pointer;
   -webkit-transform-origin: 110% 110%;
   -ms-transform-origin: 110% 110%;
   transform-origin: 110% 110%;
