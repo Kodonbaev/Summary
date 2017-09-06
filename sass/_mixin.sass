@@ -1,0 +1,12 @@
+
+%clearfix
+	&::after
+		content: ''
+		display: table
+		width: 100%
+		clear: both
+
+
+=mobile
+	@media screen and (min-width: 320px) and (max-width: 620px)
+		@content
